@@ -1,0 +1,43 @@
+{
+  "name": "grafana-jigsaw-panel",
+  "version": "2.0.4",
+  "description": "A plugin for Grafana that visualizes GPS-based data to create a jigsaw.",
+  "main": "src/module.js",
+  "scripts": {
+    "build": "grunt"
+  },
+  "author": {
+    "name": "Stefan Haselwimmer",
+    "url": ""
+  },
+  "keywords": [
+    "trackmap",
+    "track",
+    "map",
+    "gps",
+    "latitude",
+    "longitude",
+    "grafana",
+    "plugin",
+    "panel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "load-grunt-tasks": "^4.0.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.5.1",
+    "moment": "^2.22.2"
+  }
+}

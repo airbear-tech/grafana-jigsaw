@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["JigsawCtrl"],"mappings":";;;;;;AAAQA,MAAAA,U,gBAAAA,U;;;2BAGNA,U","sourcesContent":["import {JigsawCtrl} from './jigsaw_ctrl';\n\nexport {\n  JigsawCtrl as PanelCtrl\n};\n"],"file":"module.js"}
